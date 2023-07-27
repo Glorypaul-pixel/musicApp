@@ -8,7 +8,7 @@ body {
 }
 main {
   background-color: plum;
-  margin: 1rem 11.5rem;
+  margin: 1rem 12rem;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
@@ -37,16 +37,15 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-bottom: 1rem; */
 }
-#image img {
-  clip-path: circle();
-  width: 100%;
-  border-radius: 1rem white solid;
-}
+
 .imag {
-  margin-bottom: 1rem;
-  border-radius: 1px white solid;
+  width: 320px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+  margin-bottom: 0.5rem;
+  border: 5px white solid;
 }
 #music {
   display: flex;
@@ -76,7 +75,7 @@ audio {
   background: rgb(79, 7, 123);
   border-radius: 4px;
   cursor: pointer;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 #progress::-webkit-slider-thumb {
   -webkit-appearance: none;
