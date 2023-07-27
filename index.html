@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="./img/favicon.webp" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/1ae310f4a8.js"
       crossorigin="anonymous"></script>
-    <title>Music App</title>
+    <title> Music App </title>
   </head>
+
   <body>
     <main>
       <div id="header">
@@ -15,11 +18,21 @@
         <div id="menu"><i class="fa-solid fa-bars"></i></div>
       </div>
       <div id="image">
-        <img src="" alt="" />
-        <h3>Despacito</h3>
-        <h6>Luis Fonsi Ft. Puerto Rican</h6>
+        <div class="imag">
+          <img src="./img/img.jpeg" alt="" />
+        </div>
+
+        <h3>Firm Foundation</h3>
+        <p>Maverick City Music</p>
       </div>
-      <div id="speed"></div>
+      <div id="speed">
+        <!-- <audio controls>
+          <source
+            src="./media/Maverick-City-Music-feat-Chandler-Moore-Cody-Carnes-Firm-Foundation-He-Wont-(CeeNaija.com).mp3"
+            type="audio/mpeg" />
+        </audio> -->
+        <input type="range" value="0" id="progress" />
+      </div>
       <div id="music">
         <div id="backward"><i class="fa-solid fa-backward"></i></div>
         <div id="play"><i class="fa-solid fa-play"></i></div>
