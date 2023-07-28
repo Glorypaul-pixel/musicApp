@@ -8,8 +8,9 @@ body {
 }
 main {
   background-color: plum;
-  margin: 1rem 12rem;
+  width: 40%;
   display: flex;
+  margin: 1.5rem auto;
   flex-direction: column;
   padding: 1.5rem;
 }
@@ -50,6 +51,7 @@ main {
 #music {
   display: flex;
   align-items: center;
+  padding: 1rem 4rem;
   justify-content: space-between;
 }
 #play {
@@ -85,4 +87,27 @@ audio {
   border: 8px solid white;
   box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
   background-color: rgb(79, 7, 123);
+}
+@media only screen and (max-width: 900px) {
+  main {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .imag {
+    width: 230px;
+    height: 220px;
+  }
+  #lessThan,
+  #menu,
+  #forward,
+  #backward {
+    font-size: 1rem;
+  }
+  #music {
+    padding: 1rem;
+  }
+  #play {
+    font-size: 1.6rem;
+    padding: 1.3rem;
+  }
 }
