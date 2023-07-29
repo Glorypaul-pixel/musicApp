@@ -1,7 +1,7 @@
 let progress = document.getElementById("progress");
 let song = document.getElementById("song");
 let ctrlIcon = document.getElementById("play");
-const wrapper = document.querySelector(".");
+
 song.onloadedmetadata = function () {
   progress.max = song.duration;
   progress.value = song.currentTime;
